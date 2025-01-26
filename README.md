@@ -32,11 +32,14 @@ Dissable unwanted latter accents pop-up:
 defaults write -g ApplePressAndHoldEnabled -bool false
 ```
 
+Change keybord sensivity in settings
+
 ## 🏋🏼 Commands / Lifehacks
 
 Toggle hidden files in `neo-tree`:
 ```shell
-shift + h
+Shift + h
 ```
 
-
+[Mappings](https://docs.astronvim.com/mappings/#terminal-mappings):
+- open lazygit - `Leader + tl`
