@@ -41,5 +41,23 @@ Toggle hidden files in `neo-tree`:
 Shift + h
 ```
 
+[Find and replace in file](https://aaronbos.dev/posts/find-and-replace-neovim):
+```shell
+:[range]s/<string-to-find>/<string-to-replace>/[flags]
+
+:%s/foo/bar/g
+```
+
+[Find and replace globaly](https://www.youtube.com/watch?v=9JCsPsdeflY):
+```shell
+// telescope find a word
+leader + f + w
+
+// pass to quick link
+ctrl + q
+
+:cfdo :%s/foo/bar/g | update
+```
+
 [Mappings](https://docs.astronvim.com/mappings/#terminal-mappings):
 - open lazygit - `Leader + tl`
