@@ -28,6 +28,7 @@ nvim
 #### Setup MacOS
 
 Dissable unwanted latter accents pop-up:
+
 ```shell
 defaults write -g ApplePressAndHoldEnabled -bool false
 ```
@@ -37,11 +38,13 @@ Change keybord sensivity in settings
 ## 🏋🏼 Commands / Lifehacks
 
 Toggle hidden files in `neo-tree`:
+
 ```shell
 Shift + h
 ```
 
 [Find and replace in file](https://aaronbos.dev/posts/find-and-replace-neovim):
+
 ```shell
 :[range]s/<string-to-find>/<string-to-replace>/[flags]
 
@@ -49,6 +52,7 @@ Shift + h
 ```
 
 [Find and replace globaly](https://www.youtube.com/watch?v=9JCsPsdeflY):
+
 ```shell
 // telescope find a word
 leader + f + w
@@ -59,5 +63,14 @@ ctrl + q
 :cfdo :%s/foo/bar/g | update
 ```
 
+Select (Visual):
+
+```shell
+// visual between
+leader + v + i + c|f|b|B|{|('|"
+
+```
+
 [Mappings](https://docs.astronvim.com/mappings/#terminal-mappings):
+
 - open lazygit - `Leader + tl`
